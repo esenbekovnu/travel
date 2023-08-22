@@ -111,6 +111,18 @@ body {
 .tun {
   width: 1100px;
   height: 1100px;
+  animation: myAnim 1s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: rotate(-540deg) scale(0);
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotate(0) scale(1);
+	}
 }
 .Los-angeles h1 {
   display: flex;
